@@ -2,7 +2,7 @@
 
 COMP302 Term Project made by Attila Fan Club.
 
-## Our Team
+## Team
 
 Atahan Aksoy
 
@@ -35,40 +35,7 @@ Our game works fine without connecting to the database; however, if you want to 
 
 5- Run the game.
 
-Latest Changes:
-For the latest changes, please pull the dev branch. You can find the latest working version for the Phase demo's in the master branch.
-
-## What we have done so far?
-- Building mode is completed.
-- Statistics panel is completed.
-- Blending mode is completed.
-- Moving and rotating atom shooter.
-- Atom shooter does not go out of boundaries.
-- Picking atoms randomly.
-- Shooting atoms and powerups.
-- Selecting powerups with click events.
-- Falling powerups and molecules.
-- Hitting molecules with corresponding atoms.
-- Removing atoms, molecules and powerups when they go out of screen.
-- Atoms are powerups are reflected after they hit the walls.
-- Increasing score after hitting a molecule.
-- Timer based animations.
-- Pause / Return game features.
-- Pause game UI.
-- End game logic.
-- End game UI.
-- Restart game feature.
-- Reaction blockers are falling and they can give damage.
-- Reaction blocker prevents the collision of atom and molecule if the collision is in the range of it.
-- Default distance unit L is implemented.
-- New atom behavior is implemented.
-- Shields are implemented.
-- We can have multiple save files and load from them.
-- We can have multiple saves in the database and load from them.
-- We have music and sound effects.
-- We have Junit tests for Controllers.
-
-## Which design patterns do we use?
+## Design Patterns we used through the project
 
 - Polymorphism:
     We have a base Drawable class. It has fields such as icon, xCoordinate, yCoordinate,
